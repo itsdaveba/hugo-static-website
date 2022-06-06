@@ -20,5 +20,5 @@ phases:
       - make build
 artifacts:
   files:
-    - public/**/*
-  base-directory: ./
+    - '**/*'
+  base-directory: public
