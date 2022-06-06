@@ -20,4 +20,5 @@ phases:
       - make build
 artifacts:
   files:
-    - public/index.html index.html
+    - public/**/*
+  discard-paths: yes
