@@ -9,9 +9,8 @@ env:
 phases:
   install:
     commands:
-      - wget https://github.com/gohugoio/hugo/releases/download/v$HUGO_VERSION/hugo_$HUGO_VERSION_Linux-64bit.tar.gz
-      - tar -xzf hugo_$HUGO_VERSION_Linux-64bit.tar.gz
-      - echo $PATH
+      - wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
+      - tar -xzf hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
   build:
     commands:
       - python3 -m venv ~/.venv
