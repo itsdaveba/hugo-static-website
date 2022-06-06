@@ -20,4 +20,5 @@ phases:
       - make build
 artifacts:
   files:
-    - public/**/*
+    - public/index.html
+    - public/404.html
