@@ -21,4 +21,4 @@ phases:
 artifacts:
   files:
     - public/index.html
-    - public/404.html
+    - config.toml
