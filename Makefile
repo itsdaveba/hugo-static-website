@@ -5,8 +5,5 @@ setup:
 build: clean
 	hugo -D
 
-deploy:
-	hugo deploy
-
 clean:
 	rm -rf public
