@@ -2,7 +2,3 @@ baseURL = 'http://itsdaveba-hugo-static-website.s3-website-us-east-1.amazonaws.c
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'ananke'
-
-[[deployment.targets]]
-name = 'hugo-static-website'
-URL = 's3://itsdaveba-hugo-static-website?region=us-east-1'
