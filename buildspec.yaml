@@ -20,6 +20,4 @@ phases:
       - make build
 artifacts:
   files:
-    - public/index.html
-    - config.toml
-    - Makefile
+    - public/index.html index.html
