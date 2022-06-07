@@ -18,6 +18,3 @@ phases:
   post_build:
     commands:
       - make deploy
-artifacts:
-  files:
-    - config.toml
