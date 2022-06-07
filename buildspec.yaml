@@ -15,7 +15,6 @@ phases:
   build:
     commands:
       - make build
-artifacts:
-  files:
-    - '**/*'
-  base-directory: public
+  post_build:
+    commands:
+      - make deploy

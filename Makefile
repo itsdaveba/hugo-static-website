@@ -5,5 +5,8 @@ setup:
 build: clean
 	hugo
 
+deploy:
+	aws s3 sync public/ s3://itsdaveba-hugo-static-website/ --delete
+
 clean:
 	rm -rf public
